@@ -201,7 +201,7 @@ smd(
 ); */
 astro_patch.smd(
   {
-    cmdname: "menu",
+    cmdname: "manu",
     desc: "Help list",
     react: "📃",
     desc: "To show all avaiable commands.",
@@ -529,7 +529,7 @@ astro_patch.cmd(
 );
 astro_patch.smd(
   {
-    pattern: "ping",
+    pattern: "piing",
     desc: "To check ping",
     category: "user",
     filename: __filename,
@@ -549,7 +549,7 @@ astro_patch.smd(
 );
 smd(
   {
-    pattern: "alive",
+    pattern: "aliive",
     desc: "Shows system status with different designs.",
     category: "general",
     filename: __filename,
@@ -687,7 +687,7 @@ smd(
   }
 );
 astro_patch.cmd({
-    pattern: "list",
+    pattern: "lest",
     desc: "list menu",
     category: "general",
     react: "🥀"
