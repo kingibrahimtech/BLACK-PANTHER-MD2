@@ -318,9 +318,9 @@ ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰▱▱▰▱
-      𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫
- ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰▱▱▰▱*
+*▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
+        𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫
+ ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -538,11 +538,11 @@ astro_patch.smd(
   },
   async (context) => {
     const startTime = new Date().getTime();
-    const { key: messageKey } = await context.reply("*hmm...*");
+    const { key: messageKey } = await context.reply("*Panther pinging...!*");
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*ʟᴀᴛᴇɴᴄʏ: ${pingTime} ᴍs*`,
+      `*Pong▱▱▱▰▰▰▰▰: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
