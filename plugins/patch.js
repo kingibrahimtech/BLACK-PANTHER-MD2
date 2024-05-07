@@ -608,7 +608,7 @@ smd(
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/OQOH4Gn.jpeg",
+            "https://telegra.ph/file/af1705e9b4d6aa0bc0f96.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -1170,7 +1170,7 @@ smd(
                       _0xf574fc[_0x4231a3(377)] +
                       _0x4231a3(356)
                     : "") +
-                  "\n*〽️Help:* ```" +
+                  "\n*〽️H:* ```" +
                   _0xf574fc[_0x4231a3(355)] +
                   _0x4231a3(353);
               });
