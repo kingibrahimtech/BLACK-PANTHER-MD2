@@ -318,9 +318,9 @@ ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
-        𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫
- ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰*
+▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
+         𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫
+▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -400,7 +400,7 @@ smd(
 );
 astro_patch.cmd(
   {
-    pattern: "setcmd",
+    pattern: "sd",
     desc: "To check ping",
     category: "user",
     fromMe: true,
@@ -542,7 +542,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*Pong▱▱▱▰▰▰▰▰: ${pingTime} ᴍs*`,
+      `*Pong▱▱▱▰▰▰▰▰ ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
@@ -978,7 +978,7 @@ function _0x593b() {
     "forEach",
     "```\n\n",
     "toLowerCase",
-    "help",
+    "h",
     "```",
     "57304VUSDcZ",
     "276864ouXpfJ",
@@ -1095,7 +1095,7 @@ smd(
       if (!isNaN(_0x56b5d3)) {
         if (
           _0x1eb88a[_0x210c92(367)] > 30 &&
-          _0x1eb88a[1][_0x210c92(362)]("ASTA-MD_FANCY_TEXT")
+          _0x1eb88a[1][_0x210c92(362)]("PANTHER-MD_FANCY_TEXT")
         ) {
           var _0x7b7a13 = _0x1eb88a[_0x210c92(379)]((_0x4377cc) =>
             _0x4377cc.startsWith(_0x56b5d3 + " ")
