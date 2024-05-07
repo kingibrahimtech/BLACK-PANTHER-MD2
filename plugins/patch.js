@@ -201,7 +201,7 @@ smd(
 ); */
 astro_patch.smd(
   {
-    cmdname: "menu",
+    cmdname: "m",
     desc: "Help list",
     react: "🐯",
     desc: "To show all avaiable commands.",
@@ -362,7 +362,7 @@ ${readmore}`;
 );
 smd(
   {
-    pattern: "menus",
+    pattern: "m",
     type: "MENU list",
     info: "user",
     dontAddCommandList: true,
@@ -529,7 +529,7 @@ astro_patch.cmd(
 );
 astro_patch.smd(
   {
-    pattern: "ping",
+    pattern: "p",
     desc: "To check ping",
     category: "user",
     filename: __filename,
@@ -549,7 +549,7 @@ astro_patch.smd(
 );
 smd(
   {
-    pattern: "alive",
+    pattern: "a",
     desc: "Shows system status with different designs.",
     category: "general",
     filename: __filename,
@@ -655,7 +655,7 @@ smd(
 );
 smd(
   {
-    pattern: "runtime",
+    pattern: "rt",
     desc: "Show the uptime, RAM usage, and CPU name of the process.",
     category: "general",
     filename: __filename,
