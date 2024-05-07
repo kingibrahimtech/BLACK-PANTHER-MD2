@@ -287,7 +287,7 @@ astro_patch.smd(
         menuThemeCommandPrefix = "│ │";
         menuThemeFooter = "╰═══════════════⍟";
         menuThemeCategoryHeader = "╭─⍟";
-        menuThemeCategoryFooter = "══⍟⍟";
+        menuThemeCategoryFooter = "▱▰⍟";
         menuThemeCommandPrefix = "┋";
         menuThemeCommandFooter = "╰════════════─⍟";
       }
@@ -318,7 +318,9 @@ ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*Pᵒʷᵉʳᵉᵈ ᵇʸ Iᵇʳᵃʰⁱᵐ Aᵈᵃᵐˢ*
+*▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰▱▱▰▱
+      𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫
+ ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰▱▱▰▱*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -687,7 +689,7 @@ smd(
   }
 );
 astro_patch.cmd({
-    pattern: "list",
+    pattern: "l",
     desc: "list menu",
     category: "general",
     react: "🥀"
